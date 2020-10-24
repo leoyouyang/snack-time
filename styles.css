@@ -75,10 +75,6 @@ button {
   text-align: center;
 }
 
-iframe {
-  display: none;
-}
-
 a {
   text-decoration: none;
   cursor: default;
