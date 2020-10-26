@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Arvo";
+  src: url("fonts/Arvo-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("fonts/Nunito-Bold.ttf");
+}
+
+body {
+  font-family: sans-serif;
+  position: relative;
+  margin: 0;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  background-color: #009bdf;
+  color: white;
+  font-family: "Nunito";
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.selected {
+  background-color: #ed0080;
+  color: white;
+}
+
+.brushButtons {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 20px;
+}
+
+.switchButtons {
+  position: absolute;
+  font-size: 14px;
+  width: 40px;
+  height: 30px;
+  border-radius: 25px;
+  top: 42vh;
+  background-color: #ddf1ff;
+  color: #009bdf;
+}
+
+#left {
+  left: 10px;
+}
+
+#right {
+  right: 10px;
+}
+
+.functionButtons {
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: default;
+  background-color: #009bdf;
+  border-radius: 25px;
+  font-family: "Nunito";
+  padding: 9px 28px;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 16px;
+  color: white;
+}
