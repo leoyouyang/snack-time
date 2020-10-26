@@ -162,7 +162,7 @@ function paintStart(x, y) {
 function paintMove(x, y) {
   ctx.beginPath();
   let interpolatedPoints = pointsAlongLine(x, y, lastX, lastY, 10);
-  let randomness = 20;
+  let randomness = 15;
 
   if (brushMode === 0) {
     // Pringles
